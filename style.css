@@ -201,6 +201,84 @@ footer .baner-footer p{
 }
 
 
-  footer{
+footer{
     color: var(--color-texto);
-  }
+}
+
+
+
+
+
+
+
+
+
+/* ESTILOS PARA VERSIÓN MÓVIL */
+
+
+@media(max-width: 768px) {
+    html {
+        font-size: 50%;
+    }
+
+    body {
+        font-size: 1.4rem;
+    }
+
+    /* .header nav ul li a{
+        font-size: 2rem;
+    } */
+
+    header .logoPrincipal {
+        width: 45rem;
+        padding-top: 20px;
+        padding-left: 8rem;
+        text-align: center;
+    }
+
+    header .banerImg {
+        width: 100%;
+    }
+
+    main div {
+        margin-top: 2rem;
+    }
+
+    main .productos .productoimg {
+        height: auto;
+        margin-inline: 0;
+        width: 90%;
+        margin-block: 1rem;
+    }
+
+    main .productos .productoimg img {
+        width: 100%;
+    }
+
+    main .productos .productoimg h3,
+    main .productos .productoimg p,
+    main .productos .productoimg .envio {
+        padding-top: 5px;
+        font-size: 2.4rem;
+    }
+
+    footer .baner-footer {
+        flex-direction: column;
+    }
+
+    .baner-footer .p-azul {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .pago-con-tarjet-o-efectivo,
+    .envio-gratis,
+    .seguridad {
+        padding: 10px;
+    }
+
+    footer .baner-footer h3,
+    footer .baner-footer p {
+        padding-top: 1rem;
+    }
+}
