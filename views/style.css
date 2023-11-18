@@ -224,79 +224,50 @@ footer{
 }
 
 
-
-
-
-
-
-
-
 /* ESTILOS PARA VERSIÓN MÓVIL */
 
 
-@media(max-width: 768px) {
-    html {
-        font-size: 50%;
-    }
-
-    body {
-        font-size: 1.4rem;
-    }
-
-    /* .header nav ul li a{
-        font-size: 2rem;
-    } */
-
+/* Media query para dispositivos con ancho mínimo de 320px */
+@media (min-width: 320px) and (max-width: 700px){
+    /* Aquí van los estilos específicos para dispositivos con ancho mínimo de 320px */
     header .logoPrincipal {
-        width: 45rem;
-        padding-top: 20px;
-        padding-left: 8rem;
-        text-align: center;
+      width: 100%; /* Ejemplo de cambio para adaptarse al ancho de la pantalla */
+      padding-left: 10px; /* Ejemplo de cambio en el padding */
     }
-
-    header .banerImg {
-        width: 100%;
-    }
-
+  
     main div {
-        margin-top: 2rem;
+      margin-top: 2rem; /* Modificación del margen superior */
     }
-
+  
     main .productos .productoimg {
-        height: auto;
-        margin-inline: 0;
-        width: 90%;
-        margin-block: 1rem;
+      height: 320px; /* Cambio en la altura de las imágenes de productos */
     }
-
+  
     main .productos .productoimg img {
-        width: 100%;
+      width: 20rem; /* Cambio en el ancho de la imagen del producto */
     }
-
-    main .productos .productoimg h3,
-    main .productos .productoimg p,
-    main .productos .productoimg .envio {
-        padding-top: 5px;
-        font-size: 2.4rem;
+  
+    /* Ocultar el nav */
+    .header nav ul {
+      display: none;
     }
-
-    footer .baner-footer {
-        flex-direction: column;
+  }
+@media (min-width: 320px) and (max-width: 700px) {
+    /* Estilos para ancho entre 320px y 700px */
+    /* ... (tus estilos para esta gama de ancho) ... */
+    .header nav ul {
+      display: none; /* Ejemplo: ocultar el nav en esta gama de ancho */
     }
-
-    .baner-footer .p-azul {
-        text-align: center;
-        padding-top: 10px;
+  }
+  
+  /* Media query para dispositivos con ancho entre 700px y 940px */
+  @media (min-width: 700px) and (max-width: 940px) {
+    /* Estilos específicos para ancho entre 700px y 940px */
+    header .logoPrincipal {
+      width: 66%; /* Reducir el ancho del logo */
+      padding-left: 30rem; /* Ajustar el padding si es necesario */
+      display: flex;
+      justify-content: center; /* Centrar el logo */
     }
-
-    .pago-con-tarjet-o-efectivo,
-    .envio-gratis,
-    .seguridad {
-        padding: 10px;
-    }
-
-    footer .baner-footer h3,
-    footer .baner-footer p {
-        padding-top: 1rem;
-    }
-}
+  }
+  
