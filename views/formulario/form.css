@@ -1,10 +1,10 @@
 :root{
     --mercado-color: #fff159;
-    --body-grey: #e8e8e8;
+    --body-grey: #f2f2f2;
     --ofert-green: #009902;
     --boton-blue: #3483fa;
     --color-texto: rgb(51, 51, 51);
-    --background-form: #ffd942;
+    --background-form: #dcdcdc;
 }
 
 html{
@@ -43,6 +43,13 @@ header .logoPrincipal{
 
 /*ESTILOS DEL FORMULARIO */
 
+
+main .container .content .tittle h1{
+    text-align: center;
+    font-weight: bolder;
+    color: #003b93;
+}
+
 main .container {
     display: flex;
     flex-direction: column;
@@ -53,8 +60,8 @@ main .container {
 
 main .container .content{
     background-color: var(--background-form);
-    width: 60rem;
-    height: 68rem;
+    width: 40rem;
+    height: 130rem;
     padding: 3rem;
     border-radius: 3rem;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.396);
@@ -69,35 +76,42 @@ main .container .content .input-group {
 }
 
 main .container .content .input-group label{
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.7rem;
+    /* font-weight: bold; */
     padding-left: 1rem;
-    padding-top: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 1.3rem;
     color: var(--color-texto);
 }
 
 main .container .content .input-group input{
+    padding-left: 1remD;
     height: 4rem;
     border-radius: 1rem;
     border: none;
     font-size: 2rem;
+    margin-left: 1rem;
 }
 
 /* main .container .content .input-group #enviar{
     width: 3rem;
 } */
 
+main .container .content .check input{
+    width: 2rem;
+}
+
 main #enviar{
     width: 20rem;
     justify-content: center;
     align-items: center;
-    height: 3rem;
+    height: 5rem;
     border: none;
     border-radius: 1rem;
     font-size: 2rem;
-    margin-left: 18rem;
+    margin-left: 7rem;
     margin-top: 3rem;
-    background-color: #000042;
+    background-color: #003278;
     color: aliceblue;
     font-weight: bolder;
 }
@@ -111,7 +125,8 @@ main .btn-crear-cuenta{
 main .iniciar{
     background-color: aliceblue;
     margin-top: 5rem;
-    margin-left: 20rem;
+    width: 20rem;
+    margin-left: 7rem;
     margin-right: 18rem;
     text-align: center;
     padding: 1.3rem;
