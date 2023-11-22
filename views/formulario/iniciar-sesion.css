@@ -84,7 +84,7 @@ main .container .content .input-group label{
 
 main .container .content .input-group input{
     height: 4rem;
-    padding-left: 1rem;
+    padding-left: 1.5rem;
     border-radius: 1rem;
     border: none;
     font-size: 2rem;
@@ -104,10 +104,19 @@ main #enviar{
     font-size: 2rem;
     margin-left: 7rem;
     margin-top: 3rem;
-    background-color: #003278;
-    color: aliceblue;
+    background-color: #1438ff;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
 }
+
+main #enviar:hover{
+    transition: 0.5s;
+    background-color: #c3c3c3;
+    color: #0011ff;
+    cursor: pointer;
+}
+
+
 
 
 main .iniciar{
@@ -120,6 +129,7 @@ main .iniciar{
     padding: 1.3rem;
     border-radius: 2rem;
 }
+
 
 main .iniciar a{
     text-decoration: none;
