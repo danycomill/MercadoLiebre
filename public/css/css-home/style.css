@@ -93,7 +93,7 @@ main div{
     display: flex;
     /* text-align: center;
     justify-content: center; */
-    padding-left: 17rem;
+    padding-left: 24rem;
     margin-top: 3rem;
     color: var(--color-texto);
 }
@@ -110,7 +110,7 @@ main{
 
 main .productos{
     padding: 3%;
-    padding-left: 10%;
+    padding-left: 13%;
 }
 
 
