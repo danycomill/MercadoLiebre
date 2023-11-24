@@ -168,10 +168,6 @@ main .productos .productoimg p{
     padding-top: 10px;
 }
 
-main .productos .productoimg .ocult{
-    
-}
-
 main .productos .productoimg .price{
   font-weight:bold;
   font-size: 2.3rem;
